@@ -1,0 +1,38 @@
+[project]
+name = "manim-main-function"
+version = "0.1.0"
+description = "A manim plugin that enables rendering manim scenes using the python main function."
+authors = [
+    {name = "Alexander Nasuta",email = "alexander.nasuta@wzl-iqs.rwth-aachen.de"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "rich (>=14.0.0,<15.0.0)"
+]
+
+
+[tool.poetry.requires-plugins]
+poetry-plugin-export = ">=1.8"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+manim = "^0.19.0"
+
+
+[tool.poetry.group.dev.dependencies]
+sphinx = "^8.2.3"
+sphinx-autobuild = "^2024.10.3"
+sphinx-copybutton = "^0.5.2"
+myst-parser = "^4.0.1"
+furo = "^2024.8.6"
+twine = "^6.1.0"
+pyrr = "^0.10.3"
+sphinx-data-viewer = "^0.1.5"
+sphinx-datatables = "^0.2.1"
+
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
