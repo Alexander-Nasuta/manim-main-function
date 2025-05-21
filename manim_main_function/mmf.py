@@ -3,10 +3,10 @@ import manim as m
 import os
 import inspect
 from pathlib import Path
-from manin_main_function.logger import log
+from manim_main_function.logger import log
 
 
-class ManinMainFunctions(m.Scene):
+class ManinMainFunction(m.Scene):
 
     @classmethod
     def get_file_path(cls) -> Path:

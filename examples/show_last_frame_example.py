@@ -1,8 +1,8 @@
 import manim as m
-from manin_main_function.mmf import ManinMainFunctions
+from manim_main_function.mmf import ManinMainFunction
 
 
-class ShowLastFrameExample(ManinMainFunctions, m.Scene):
+class ShowLastFrameExample(ManinMainFunction, m.Scene):
 
     def construct(self):
         my_text = m.Text("Hello World", color=m.BLUE)

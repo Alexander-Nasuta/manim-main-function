@@ -23,10 +23,11 @@ Below is are two examples of how to use the Module.
 ```python
 import manim as m
 # import ManinMainFunctions
-from manin_main_function.mmf import ManinMainFunctions
+from manim_main_function.mmf import ManinMainFunction
+
 
 # Add 'ManinMainFunctions' to your scene class to enable the main function
-class ShowLastFrameExample(ManinMainFunctions, m.Scene):
+class ShowLastFrameExample(ManinMainFunction, m.Scene):
 
     def construct(self):
         my_text = m.Text("Hello World", color=m.BLUE)
@@ -42,10 +43,11 @@ if __name__ == '__main__':
 ```python
 import manim as m
 # import ManinMainFunctions
-from manin_main_function.mmf import ManinMainFunctions
+from manim_main_function.mmf import ManinMainFunction
+
 
 # Add 'ManinMainFunctions' to your scene class to enable the main function
-class ShowLastFrameExample(ManinMainFunctions, m.Scene):
+class ShowLastFrameExample(ManinMainFunction, m.Scene):
 
     def construct(self):
         my_text = m.Text("Hello World", color=m.BLUE)
@@ -57,8 +59,8 @@ class ShowLastFrameExample(ManinMainFunctions, m.Scene):
 
 if __name__ == '__main__':
     # You can now render Manim Scenes using the main function instead of the command line!
-    ShowLastFrameExample.render_video_medium() # renders the video with the -pqm flags
-    
+    ShowLastFrameExample.render_video_medium()  # renders the video with the -pqm flags
+
     # Feel free to uncomment the following lines to render the video with different quality settings:
     # 
     # ShowLastFrameExample.render_video_low() # renders the video with the -pql flags
