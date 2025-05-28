@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "manim-main-function"
-version = "0.1.0"
+version = "0.1.1"
 description = "A manim plugin that enables rendering manim scenes using the python main function."
 authors = ["Alexander Nasuta <alexander.nasuta@wzl-iqs.rwth-aachen.de>"]
 readme = "README.md"
@@ -12,6 +12,7 @@ packages = [
 python = "^3.11"
 manim = "^0.19.0"
 rich = ">=14.0.0,<15.0.0"
+license = "MIT"
 
 # [tool.poetry.group.dev.dependencies]
 # sphinx = "^8.2.3"

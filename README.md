@@ -1,3 +1,6 @@
+[![PyPI version](https://img.shields.io/pypi/v/manim-main-function)](https://pypi.org/project/manim-main-function/)
+![License](https://img.shields.io/pypi/l/manim-main-function)
+
 
 # About this Project
 
@@ -8,7 +11,7 @@ Pressing the green run button in your IDE will render the scene or show the last
 
 Install the package with pip:
 ```
-   pip install <<todo>>
+   pip install manim-main-function
 ```
 
 # Usage
