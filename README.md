@@ -1,6 +1,4 @@
 [![PyPI version](https://img.shields.io/pypi/v/manim-main-function)](https://pypi.org/project/manim-main-function/)
-![License](https://img.shields.io/pypi/l/manim-main-function)
-
 
 # About this Project
 
